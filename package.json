@@ -1,0 +1,17 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "Project to update Firebase and serve data via API.",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "update": "node updateDatabase.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "firebase": "^10.13.1",
+    "firebase-admin": "^12.5.0",
+    "node-fetch": "^2.7.0"
+  }
+}
